@@ -1,0 +1,36 @@
+{
+	"info": {
+		"_postman_id": "86b974d7-b6bc-49d0-8de8-169a7a9e9dc8",
+		"name": "import-csv",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8630526"
+	},
+	"item": [
+		{
+			"name": "process-csv-data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3333/csv/process?fileName=data.csv",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3333",
+					"path": [
+						"csv",
+						"process"
+					],
+					"query": [
+						{
+							"key": "fileName",
+							"value": "data.csv"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
