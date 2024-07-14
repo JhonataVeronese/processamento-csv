@@ -1,0 +1,25 @@
+{
+  "name": "import-data",
+  "main": "index.ts",
+  "scripts": {
+    "test": "npx ts-node ./src/execute.ts",
+    "dev": "ts-node --transpileOnly ./src/app/infra/http/server.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^16",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "cors": "^2.8.5",
+    "cpf-cnpj-validator": "^1.0.3",
+    "csv-parser": "^3.0.0",
+    "date-fns": "^3.6.0",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "nodemon": "^3.1.4",
+    "uuid": "^9.0.1"
+  }
+}
